@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999999999999999999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+    height: 70px;
+}
+
+.navigation a{
+    padding-left: 30px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: 0.5s ease;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.navigation a:hover{
+    color: #601cfc;
+    cursor: pointer;
+}
+
+.logo{
+    transform: translateY(-30%);
+}
+
+.cart{
+    padding-left: 20px;
+    transition: 0.5s ease;
+}.cart:hover{
+    color: #601cfc;
+}
+
+
+.main-h1{
+    padding: 300px 0  0 200px ;
+    font-size: 4em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+p{
+    padding-left: 200px;
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+}
+.btn{
+    margin-left: 200px;
+    background-color: transparent;
+    color: black;   
+    border: 1px solid black;
+    border-radius: 30px;
+    display: block;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+}.btn:hover{
+    transform: scale(1.09);
+    letter-spacing: 1.5px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.main{
+    height: 100vh;
+    background-image: url('../IMGS/pexels-cats-coming-707582.jpg');
+    background-size: cover;
+}
+
+.products-h1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+}
+
+.products{
+    /* background-image: url('../IMGS/pexels-ron-lach-9594423.jpg');
+    background-size: cover; */
+    height: 100vh;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 300px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    margin: 0 20px;
+    text-align: center;
+    transition: 1s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+.card i{
+    font-size: 3.12rem;
+    color: var(--primaryColor);
+    text-align: center;
+    margin: 2rem;
+}
+
+.par{
+    font-size: 16px;
+}
+
+.products-h1{
+    margin-bottom: 50px;
+}
+
+.pricing{
+    height: 100vh;
+    background-image: url('../IMGS/pexels-karolina-grabowska-5632396.jpg');
+    background-size: cover;
+}
+
+.premium-card {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 300px;
+    margin: 0 560px;
+    margin-top: 70px;
+    transition: 0.9s ease;
+}.premium-card:hover{
+    transform: scale(1.1);
+}
+
+.card-header {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.card-body li {
+    margin-bottom: 10px;
+}
+
+.price {
+    color: #555;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.premium-btn {
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.premium-btn:hover {
+    background-color: #2980b9;
+}
+
+.contact{
+    background-image: url('../IMGS/pexels-alex-andrews-821754.jpg');
+    background-size: cover;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+textarea {
+    height: 150px;
+}
+
+.contact-btn {
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #2980b9;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 60px;
+    border-radius: 15px;
+}
+
+.icon{
+    color: #601cfc;
+}
+
+input, textarea{
+    background: transparent;
+}
+
+
+/* ABOUT SECTION */
+
+.about {
+    background-color: grey;
+    padding: 50px 0;
+    color: white;
+    font-weight: 300;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-p {
+    font-size: 13px;
+    margin-bottom: 30px;
+    transform: translateX(-10%);
+}
+
+.about-btn {
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.about-btn:hover {
+    background-color: #2980b9;
+}
+
+.about{
+    padding-top: 30px;
+    height: 100vh;
+}
+
+form{
+    margin-bottom: 20px;
+}
+
+.contact-title{
+    padding-top: 60px;
+}
+
+.footer{
+    height: 60px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px 0 ;
+}
+
+.footer-p{
+    text-align: center;
+    padding-left: 20px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.premium-card{
+    transform: translateX(30%);
+}
